@@ -4,8 +4,8 @@
 	angular.module('starter', ['ionic','ngCordova','rssappControllers','rssappServices'])
 
 	.constant("settings", {
-		title:"Raymond Camden's Blog",
-		rss:"http://feeds.feedburner.com/raymondcamdensblog"
+		title:"Новости ИТ-рынка России",
+		rss:"http://www.tadviser.ru/xml/tadviser.xml"
 	})
 
 	.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
